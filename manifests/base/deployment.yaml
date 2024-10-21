@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: "82021988" 
-          image: cepgstapacr.azurecr.io/82021988
+          image: ceappacr.azurecr.io/82021988
           ports:
           - containerPort: 8080
