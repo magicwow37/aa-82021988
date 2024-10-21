@@ -10,7 +10,6 @@ patchesStrategicMerge:
 - ingress.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namePrefix: 
 images:
 - name: ceappacr.azurecr.io/82021988 # 이미지 url 수정
-  newTag: "202410191203"
+- newTag: "202410191203"
